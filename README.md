@@ -44,7 +44,37 @@ The project follows **4 main layers**:
 ---
 
 ## 📦 Project Structure
-
+com.payrollsystem
+│
+├── controller
+│ ├── DepartmentController.java
+│ ├── EmployeeController.java
+│ └── PayrollController.java
+│
+├── entity
+│ ├── Department.java
+│ ├── Employee.java
+│ └── Payroll.java
+│
+├── repository
+│ ├── DepartmentRepository.java
+│ ├── EmployeeRepository.java
+│ └── PayrollRepository.java
+│
+├── service
+│ ├── DepartmentService.java
+│ ├── EmployeeService.java
+│ └── PayrollService.java
+│
+├── serviceimpl
+│ ├── DepartmentServiceImpl.java
+│ ├── EmployeeServiceImpl.java
+│ └── PayrollServiceImpl.java
+│
+├── payload
+│ └── ApiResponse.java
+│
+└── PayrollManagementSystemApplication.java
 
 
 ---
